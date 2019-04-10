@@ -3,7 +3,7 @@ services:
 
   #pull the application image from docker hub
   eca-service:
-    image: tfc-service:latest
+    image: moerderin/tfc-service:latest
     container_name: tfc-service
     environment:
       - SPRING_PROFILES_ACTIVE=local
