@@ -1,0 +1,11 @@
+version: '2'
+services:
+
+  #pull the application image from docker hub
+  eca-service:
+    image: tfc-service:latest
+    container_name: tfc-service
+    environment:
+      - SPRING_PROFILES_ACTIVE=local
+    ports:
+      - 8080:8080
