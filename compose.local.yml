@@ -2,7 +2,7 @@ version: '2'
 services:
 
   #pull the application image from docker hub
-  eca-service:
+  tfc-service:
     image: moerderin/tfc-service:latest
     container_name: tfc-service
     environment:
